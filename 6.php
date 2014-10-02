@@ -1,7 +1,13 @@
 <?php 
 
 $extension="9999" ; //where 9999 is the extension you would like to call
-
+//where 9999 is the extension you would like to call
+//where 9999 is the extension you would like to call
+//where 9999 is the extension you would like to call
+//where 9999 is the extension you would like to call
+//where 9999 is the extension you would like to call
+//where 9999 is the extension you would like to call
+//where 9999 is the extension you would like to call
  $socket = fsockopen("localhost","5038", $errno, $errstr, $timeout); 
  fputs($socket, "Action: Login\r\n"); 
  fputs($socket, "UserName: admin\r\n");     // default username and password for TrixBox users
